@@ -1,8 +1,8 @@
 module sop_corba{
     interface ControladorNotificacionesInt{
 		struct NotificacionDTO{
-			string Identifiacion;
-    	string TipoIdentifiacion;
+			string Id;
+    	string TipoIdentificacion;
     	double ValorCompra;
     	string LugarCompra;
     	string FechaHora;
