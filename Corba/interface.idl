@@ -1,0 +1,15 @@
+module sop_corba{
+    interface ControladorNotificacionesInt{
+		struct NotificacionDTO{
+			string Identifiacion;
+    	string TipoIdentifiacion;
+    	double ValorCompra;
+    	string LugarCompra;
+    	string FechaHora;
+    	string MedioPago;
+    	string NitEmpresa;		
+		};
+		
+		void registrarNotificacion( in NotificacionDTO objNotificacion);	
+    };    	 
+};
